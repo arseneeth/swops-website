@@ -632,7 +632,7 @@ mark,
 
 .img-fluid
 {
-    max-width: 200%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -14858,7 +14858,7 @@ label
 
     content: '';
 
-    background-color: #748ffc;
+    background-color: #f7c86f;
 }
 .img-effect-border
 {

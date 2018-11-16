@@ -3165,16 +3165,16 @@ fieldset:disabled a.btn
 
 .btn-outline-primary
 {
-    color: #91a7ff;
-    border-color: #91a7ff; 
+    color: white;
+    border-color: white; 
     background-color: transparent;
     background-image: none;
 }
 .btn-outline-primary:hover
 {
-    color: #4dabf7;   /* ------------------------------------------- hover color here */
-    border-color: #4dabf7; 
-    background-color: #d2aa78;
+    color: #212529;
+    border-color: #5c7cfa; 
+    background-color: #5c7cfa;
 }
 .btn-outline-primary:focus,
 .btn-outline-primary.focus
@@ -14858,7 +14858,7 @@ label
 
     content: '';
 
-    background-color: #748ffc;
+    background-color: #91a7ff;
 }
 .img-effect-border
 {
