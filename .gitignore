@@ -1,0 +1,5 @@
+# Node
+node_modules
+*.log
+.nvm
+/node_modules/
