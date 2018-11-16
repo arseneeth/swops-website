@@ -632,7 +632,7 @@ mark,
 
 .img-fluid
 {
-    max-width: 100%;
+    max-width: 200%;
     height: auto;
 }
 
@@ -2218,12 +2218,12 @@ pre code
 .form-control
 {
     font-size: .9375rem;
-    line-height: 1.20313rem;
+    line-height: 1.20312rem;
 
     display: block;
 
     width: 100%;
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     padding: 1rem .75rem;
 
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; 
@@ -2253,16 +2253,6 @@ pre code
     outline: 0;
     background-color: #f8f9fa;
     box-shadow: none;
-}
-.form-control::-webkit-input-placeholder
-{
-    opacity: 1; 
-    color: #828a91;
-}
-.form-control:-ms-input-placeholder
-{
-    opacity: 1; 
-    color: #828a91;
 }
 .form-control::-ms-input-placeholder
 {
@@ -2298,7 +2288,7 @@ select.form-control:focus::-ms-value
 .col-form-label
 {
     font-size: inherit;
-    line-height: 1.20313rem; 
+    line-height: 1.20312rem; 
 
     margin-bottom: 0;
     padding-top: calc(1rem + 1px);
@@ -2325,7 +2315,7 @@ select.form-control:focus::-ms-value
 
 .form-control-plaintext
 {
-    line-height: 1.20313rem;
+    line-height: 1.20312rem;
 
     display: block;
 
@@ -4080,7 +4070,7 @@ input[type='button'].btn-block
 {
     font-size: .9375rem;
     font-weight: 400;
-    line-height: 1.20313rem;
+    line-height: 1.20312rem;
 
     display: flex;
 
@@ -4134,7 +4124,7 @@ input[type='button'].btn-block
 
     display: block;
 
-    min-height: 1.64063rem;
+    min-height: 1.64062rem;
     padding-left: 1.5rem;
 }
 
@@ -4271,12 +4261,12 @@ input[type='button'].btn-block
 
 .custom-select
 {
-    line-height: 1.20313rem;
+    line-height: 1.20312rem;
 
     display: inline-block;
 
     width: 100%;
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     padding: 1rem 1.75rem 1rem .75rem;
 
     vertical-align: middle;
@@ -4345,7 +4335,7 @@ input[type='button'].btn-block
     display: inline-block;
 
     width: 100%;
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     margin-bottom: 0;
 }
 
@@ -4355,7 +4345,7 @@ input[type='button'].btn-block
     z-index: 2;
 
     width: 100%;
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     margin: 0;
 
     opacity: 0;
@@ -4388,7 +4378,7 @@ input[type='button'].btn-block
     right: 0;
     left: 0;
 
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     padding: 1rem 1.5rem;
 
     color: #495057;
@@ -4407,7 +4397,7 @@ input[type='button'].btn-block
 
     display: block;
 
-    height: 3.64063rem;
+    height: 3.64062rem;
     padding: 1rem 1.5rem;
 
     content: 'Browse';
@@ -4709,8 +4699,8 @@ input[type='button'].btn-block
     display: inline-block;
 
     margin-right: 1rem;
-    padding-top: .39063rem;
-    padding-bottom: .39063rem;
+    padding-top: .39062rem;
+    padding-bottom: .39062rem;
 
     white-space: nowrap;
 }
@@ -5818,7 +5808,7 @@ input[type='button'].btn-block
 
 .progress
 {
-    font-size: .70313rem;
+    font-size: .70312rem;
 
     display: flex;
     overflow: hidden;
@@ -14403,8 +14393,8 @@ a.text-dark:focus
 {
     display: inline-flex;
 
-    width: 4.20313rem !important;
-    height: 4.20313rem !important;
+    width: 4.20312rem !important;
+    height: 4.20312rem !important;
     padding: 0 !important;
 
     border-radius: 50%; 
@@ -14415,14 +14405,14 @@ a.text-dark:focus
 .btn-circle.btn-lg,
 .btn-group-lg > .btn-circle.btn
 {
-    width: 4.70313rem !important;
-    height: 4.70313rem !important;
+    width: 4.70312rem !important;
+    height: 4.70312rem !important;
 }
 .btn-circle.btn-sm,
 .btn-group-sm > .btn-circle.btn
 {
-    width: 3.70313rem !important;
-    height: 3.70313rem !important;
+    width: 3.70312rem !important;
+    height: 3.70312rem !important;
 }
 .btn.btn-link
 {
@@ -14707,14 +14697,6 @@ a.card:hover .card-img-top:before,
     border-color: rgba(255, 255, 255, .25);
     background-color: rgba(255, 255, 255, .05);
 }
-.form-light .form-control::-webkit-input-placeholder
-{
-    color: rgba(255, 255, 255, .5);
-}
-.form-light .form-control:-ms-input-placeholder
-{
-    color: rgba(255, 255, 255, .5);
-}
 .form-light .form-control::-ms-input-placeholder
 {
     color: rgba(255, 255, 255, .5);
@@ -14876,7 +14858,7 @@ label
 
     content: '';
 
-    background-color: #f7c86f;
+    background-color: #748ffc;
 }
 .img-effect-border
 {
@@ -15124,7 +15106,7 @@ label
 .navbar-brand-svg
 {
     width: auto;
-    width: 5.14063rem; 
+    width: 5.14062rem; 
     height: 1.75rem;
 }
 .navbar-brand-img
@@ -15811,8 +15793,7 @@ h6
     max-width: 100%;
     height: 2.125rem;
 
-    -webkit-filter: grayscale(0);
-            filter: grayscale(0);
+    filter: grayscale(0);
 }
 .brand-item:hover,
 .brand-item:focus,
