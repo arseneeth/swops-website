@@ -3165,16 +3165,16 @@ fieldset:disabled a.btn
 
 .btn-outline-primary
 {
-    color: white;
-    border-color: white; 
+    color: #d2aa78;
+    border-color: #d2aa78; 
     background-color: transparent;
     background-image: none;
 }
 .btn-outline-primary:hover
 {
     color: #212529;
-    border-color: #5c7cfa; 
-    background-color: #5c7cfa;
+    border-color: #d2aa78; 
+    background-color: #d2aa78;
 }
 .btn-outline-primary:focus,
 .btn-outline-primary.focus
@@ -14841,7 +14841,7 @@ label
     position: relative;
     z-index: 1; 
 
-    box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15);
+ {/*   box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15); */}
 }
 .img-effect-solid
 {
@@ -14858,7 +14858,7 @@ label
 
     content: '';
 
-    background-color: #91a7ff;
+    background-color: #dbbb93;
 }
 .img-effect-border
 {
