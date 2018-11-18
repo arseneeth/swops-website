@@ -14841,7 +14841,7 @@ label
     position: relative;
     z-index: 1; 
 
- {/*   box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15); */}
+    box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15);
 }
 .img-effect-solid
 {
@@ -15106,7 +15106,7 @@ label
 .navbar-brand-svg
 {
     width: auto;
-    width: 5.14062rem; 
+    width: 6rem; 
     height: 1.75rem;
 }
 .navbar-brand-img
