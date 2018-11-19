@@ -15437,13 +15437,13 @@ h6
 ::-moz-selection
 {
     color: white; 
-    background-color: #d2aa78;
+    background-color: #74c0fc;
 }
 
 ::selection
 {
     color: white; 
-    background-color: #d2aa78;
+    background-color: #74c0fc;
 }
 
 .bg-slider
