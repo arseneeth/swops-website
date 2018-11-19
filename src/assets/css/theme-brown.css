@@ -507,7 +507,7 @@ h3,
 h4,
 .h4
 {
-    font-size: 1.125rem;
+    font-size: 1.325rem;
 }
 
 h5,
@@ -7110,7 +7110,7 @@ button.bg-light:focus
 
 .bg-dark
 {
-    background-color: #343a40 !important;
+    background-color: #2252C9 !important;
 }
 
 a.bg-dark:hover,
