@@ -77,7 +77,7 @@ section
 body
 {
     font-family: 'Objective', sans-serif;
-    font-size: .9375rem;
+    font-size: 1.5375rem; {/*- --------------------------------- Change font size here ------------*/}
     font-weight: 400;
     line-height: 1.75;
 
@@ -483,7 +483,7 @@ h6,
 
     margin-bottom: .5rem;
 
-    color: #212529;
+    color: #2252C9;
 }
 
 h1,
@@ -495,7 +495,7 @@ h1,
 h2,
 .h2
 {
-    font-size: 1.625rem;
+    font-size: 2.625rem;   {/*--------------------- Change font size here ------------------*/}
 }
 
 h3,
@@ -507,7 +507,7 @@ h3,
 h4,
 .h4
 {
-    font-size: 1.125rem;
+    font-size: 1.325rem;
 }
 
 h5,
@@ -2218,12 +2218,12 @@ pre code
 .form-control
 {
     font-size: .9375rem;
-    line-height: 1.20313rem;
+    line-height: 1.20312rem;
 
     display: block;
 
     width: 100%;
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     padding: 1rem .75rem;
 
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; 
@@ -2253,16 +2253,6 @@ pre code
     outline: 0;
     background-color: #f8f9fa;
     box-shadow: none;
-}
-.form-control::-webkit-input-placeholder
-{
-    opacity: 1; 
-    color: #828a91;
-}
-.form-control:-ms-input-placeholder
-{
-    opacity: 1; 
-    color: #828a91;
 }
 .form-control::-ms-input-placeholder
 {
@@ -2298,7 +2288,7 @@ select.form-control:focus::-ms-value
 .col-form-label
 {
     font-size: inherit;
-    line-height: 1.20313rem; 
+    line-height: 1.20312rem; 
 
     margin-bottom: 0;
     padding-top: calc(1rem + 1px);
@@ -2325,7 +2315,7 @@ select.form-control:focus::-ms-value
 
 .form-control-plaintext
 {
-    line-height: 1.20313rem;
+    line-height: 1.20312rem;
 
     display: block;
 
@@ -3176,14 +3166,14 @@ fieldset:disabled a.btn
 .btn-outline-primary
 {
     color: #d2aa78;
-    border-color: #d2aa78; 
+    border-color: white; 
     background-color: transparent;
     background-image: none;
 }
 .btn-outline-primary:hover
 {
     color: #212529;
-    border-color: #d2aa78; 
+    border-color: #74c0fc;  {/*-------------------- join the community button color-----------------------------*/}
     background-color: #d2aa78;
 }
 .btn-outline-primary:focus,
@@ -3202,8 +3192,8 @@ fieldset:disabled a.btn
 .show > .btn-outline-primary.dropdown-toggle
 {
     color: #212529;
-    border-color: #d2aa78; 
-    background-color: #d2aa78;
+    border-color: #74c0fc; 
+    background-color: #74c0fc;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -4080,7 +4070,7 @@ input[type='button'].btn-block
 {
     font-size: .9375rem;
     font-weight: 400;
-    line-height: 1.20313rem;
+    line-height: 1.20312rem;
 
     display: flex;
 
@@ -4134,7 +4124,7 @@ input[type='button'].btn-block
 
     display: block;
 
-    min-height: 1.64063rem;
+    min-height: 1.64062rem;
     padding-left: 1.5rem;
 }
 
@@ -4271,12 +4261,12 @@ input[type='button'].btn-block
 
 .custom-select
 {
-    line-height: 1.20313rem;
+    line-height: 1.20312rem;
 
     display: inline-block;
 
     width: 100%;
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     padding: 1rem 1.75rem 1rem .75rem;
 
     vertical-align: middle;
@@ -4345,7 +4335,7 @@ input[type='button'].btn-block
     display: inline-block;
 
     width: 100%;
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     margin-bottom: 0;
 }
 
@@ -4355,7 +4345,7 @@ input[type='button'].btn-block
     z-index: 2;
 
     width: 100%;
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     margin: 0;
 
     opacity: 0;
@@ -4388,7 +4378,7 @@ input[type='button'].btn-block
     right: 0;
     left: 0;
 
-    height: calc(3.64063rem + 2px);
+    height: calc(3.64062rem + 2px);
     padding: 1rem 1.5rem;
 
     color: #495057;
@@ -4407,7 +4397,7 @@ input[type='button'].btn-block
 
     display: block;
 
-    height: 3.64063rem;
+    height: 3.64062rem;
     padding: 1rem 1.5rem;
 
     content: 'Browse';
@@ -4709,8 +4699,8 @@ input[type='button'].btn-block
     display: inline-block;
 
     margin-right: 1rem;
-    padding-top: .39063rem;
-    padding-bottom: .39063rem;
+    padding-top: .39062rem;
+    padding-bottom: .39062rem;
 
     white-space: nowrap;
 }
@@ -5818,7 +5808,7 @@ input[type='button'].btn-block
 
 .progress
 {
-    font-size: .70313rem;
+    font-size: .70312rem;
 
     display: flex;
     overflow: hidden;
@@ -7120,7 +7110,7 @@ button.bg-light:focus
 
 .bg-dark
 {
-    background-color: #343a40 !important;
+    background-color: #2252C9 !important;
 }
 
 a.bg-dark:hover,
@@ -14403,8 +14393,8 @@ a.text-dark:focus
 {
     display: inline-flex;
 
-    width: 4.20313rem !important;
-    height: 4.20313rem !important;
+    width: 4.20312rem !important;
+    height: 4.20312rem !important;
     padding: 0 !important;
 
     border-radius: 50%; 
@@ -14415,14 +14405,14 @@ a.text-dark:focus
 .btn-circle.btn-lg,
 .btn-group-lg > .btn-circle.btn
 {
-    width: 4.70313rem !important;
-    height: 4.70313rem !important;
+    width: 4.70312rem !important;
+    height: 4.70312rem !important;
 }
 .btn-circle.btn-sm,
 .btn-group-sm > .btn-circle.btn
 {
-    width: 3.70313rem !important;
-    height: 3.70313rem !important;
+    width: 3.70312rem !important;
+    height: 3.70312rem !important;
 }
 .btn.btn-link
 {
@@ -14707,14 +14697,6 @@ a.card:hover .card-img-top:before,
     border-color: rgba(255, 255, 255, .25);
     background-color: rgba(255, 255, 255, .05);
 }
-.form-light .form-control::-webkit-input-placeholder
-{
-    color: rgba(255, 255, 255, .5);
-}
-.form-light .form-control:-ms-input-placeholder
-{
-    color: rgba(255, 255, 255, .5);
-}
 .form-light .form-control::-ms-input-placeholder
 {
     color: rgba(255, 255, 255, .5);
@@ -14859,7 +14841,7 @@ label
     position: relative;
     z-index: 1; 
 
-    box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15);
+{/*    box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15); ----------------- Comment out shadows ------ */}
 }
 .img-effect-solid
 {
@@ -14876,7 +14858,7 @@ label
 
     content: '';
 
-    background-color: #dbbb93;
+{/*    background-color: #2252C9; --------------------- */}
 }
 .img-effect-border
 {
@@ -14893,7 +14875,7 @@ label
 
     content: '';
 
-    background-color: #dbbb93;
+{/*    background-color: #2252C9; ----------------- comment out background --------------------- */}
 }
 .img-effect-border:after
 {
@@ -14971,8 +14953,8 @@ label
 
     content: '';
 
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'15\' fill=\'%23d2aa78\'></circle></svg>');
-    background-size: .5rem;
+{/*    background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'15\' fill=\'%23d2aa78\'></circle></svg>');
+    background-size: .5rem; */}
 }
 
 .modal-dialog-video .modal-content
@@ -15124,7 +15106,7 @@ label
 .navbar-brand-svg
 {
     width: auto;
-    width: 5.14063rem; 
+    width: 6rem; 
     height: 1.75rem;
 }
 .navbar-brand-img
@@ -15455,13 +15437,13 @@ h6
 ::-moz-selection
 {
     color: white; 
-    background-color: #d2aa78;
+    background-color: #74c0fc;
 }
 
 ::selection
 {
     color: white; 
-    background-color: #d2aa78;
+    background-color: #74c0fc;
 }
 
 .bg-slider
@@ -15811,8 +15793,7 @@ h6
     max-width: 100%;
     height: 2.125rem;
 
-    -webkit-filter: grayscale(0);
-            filter: grayscale(0);
+    filter: grayscale(0);
 }
 .brand-item:hover,
 .brand-item:focus,
