@@ -15434,12 +15434,6 @@ h6
     max-height: 20rem;
 }
 
-::-moz-selection
-{
-    color: white; 
-    background-color: #f5ba4b;
-}
-
 ::selection
 {
     color: white; 
